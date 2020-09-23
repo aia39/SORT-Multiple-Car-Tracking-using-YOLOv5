@@ -20,7 +20,7 @@ from models.experimental import attempt_load
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-w", "--weights", type=str, default='yolov5s.pt', help='model.pt path(s)')
+ap.add_argument("-w", "--weights", type=str, default='weight_comb', help='model.pt path(s)')
 ap.add_argument("-i", "--img", type=int, default= 1024, help='image size to prediction')
 ap.add_argument("-d", "--inp", type=str, default='input/images/', help='Input directory')
 ap.add_argument("-s", "--savevid", type=str, default='True', help='Whether video will be saved or not')

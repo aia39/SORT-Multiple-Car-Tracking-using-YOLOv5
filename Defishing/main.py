@@ -16,7 +16,7 @@ pfov = 120
 dtype = "equalarea" #   #"linear","stereographic","orthographic"
 format_ = "fullframe" #  #"circular"
 
-dataset_dir = "G:/VIP CUP 2020/Car Tracking Task(Extra Task)/simple-object-tracking(register,deregister)/input"
+dataset_dir = "images"
 
 images_dir = dataset_dir + "/images3/"     ##enter dataset directory of frames
 
@@ -48,7 +48,7 @@ image_file = os.path.join(images_dir,img_list[0])
 frame0 = cv2.imread(image_file)
 fourcc = cv2.VideoWriter_fourcc(*'mp4v') 
 height,width,layers= frame0.shape
-output_video=cv2.VideoWriter('video3.avi', fourcc, 20, (width,height))  ##saved video format, name
+output_video=cv2.VideoWriter('defished.avi', fourcc, 20, (width,height))  ##saved video format, name
 
 
 for i in tqdm(range(0, len(img_list))):

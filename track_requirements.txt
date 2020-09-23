@@ -1,0 +1,12 @@
+Cython
+numpy==1.17.2
+opencv-python
+torch>=1.6.0 
+torchvision>=0.7.0 
+matplotlib
+pillow
+scipy
+tqdm
+filterpy
+scikit-image
+scikit-learn
