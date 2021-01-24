@@ -1,10 +1,10 @@
 # Multiple-Car-Tracking-using-YOLOv5
-This is a Multi object tracker. Mainly it was build for tracking car movement in a junction. It will track each car with unique ID from entering a junction until leaving to another junction. In this pipeline, the yolov5 is used as detector. Vehicle entering the junction until leaving it will be tracker with smoothed contrail and a unique ID. Contrail is smoothed using exponential mean average over the real output. Multiple color depicts the multiple car possessing a unique ID. Demo of the task 
+This is a Multi object tracker. Mainly it was build for tracking car movement in a junction. It will track each car with unique ID from entering a junction until leaving to another junction. In this pipeline, the yolov5 is used as detector. Vehicle entering the junction until leaving it will be tracker with smoothed contrail and a unique ID. Contrail is smoothed using exponential mean average over the real output. Multiple color depicts the multiple car possessing a unique ID. Demo of the task:
 
-![](contents/day_1.avi)
+![](contents/sort_demo.gif)
 
 # Defishing
-To defish a fisheye image one can execute the section of 'Defishing'. A folder containing all fisheye images can be defished by executing 'main.py' in defishing folder. Dataset format is in the 'Euclidean Distance Based Car Tracker' section. A video will be saved containing all defished images.
+To defish (to get rid of radial distortion) a fisheye image one can execute the section of 'Defishing'. A folder containing all fisheye images can be defished by executing 'main.py' in defishing folder. Dataset format is in the 'Euclidean Distance Based Car Tracker' section. A video will be saved containing all defished images.
 
 # Euclidean Distance Based Car Tracker
 Run 'object_trackerV1.py' to execute Euclidean Distance based car tracker. Here euclidean distance is used for distance comparison between points.
@@ -16,7 +16,7 @@ SORT (Simple Online and Real-time Tracking) is one of the most popular algorithm
 ![Whole pipeline](contents/pipeline.jpg)
 
 
-To organize one can follow the structure as:
+To organize one can follow the structure after creating new input forlder 'images' as:
 ```
 images/
      img1.jpg
@@ -38,6 +38,8 @@ To install required dependencies run:
 ```bash
 pip install -r track_requirements.txt
 ```
+# Evaluation Script :
+TODO
 
 # References 
 * https://github.com/ultralytics/yolov5
