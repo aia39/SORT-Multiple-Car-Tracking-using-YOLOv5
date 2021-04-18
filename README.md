@@ -1,6 +1,6 @@
 # Multiple-Car-Tracking-using-YOLOv5
 This is a Multi object tracker. Mainly it was built for tracking car movement in a junction. It will track each car with unique ID from entering a junction until leaving to another junction. In this pipeline, the yolov5 is used as detector. Vehicle entering the junction until leaving it will be tracker with smoothed contrail and a unique ID. Contrail is smoothed using exponential mean average over the real output. Multiple colors depict the multiple car possessing a unique ID.
-This was extra task of this year Video and Image Processing Cup organized by IEEE SPS. We team 'BUET Synapticans' stood 1st in the competition and this was our winning solution for the extra task. Details about the competition can be found [here](https://signalprocessingsociety.org/community-involvement/video-image-processing-cup) and [result](https://2020.ieeeicip.org/program/video-and-image-processing-cup/)
+This was extra task of this year Video and Image Processing Cup organized by IEEE SPS. We team 'BUET Synapticans' stood **1st** in the competition and this was our winning solution for the extra task. Details about the competition can be found [here](https://signalprocessingsociety.org/community-involvement/video-image-processing-cup) and [result](https://2020.ieeeicip.org/program/video-and-image-processing-cup/)
 
 Demo of the task:
 
