@@ -7,10 +7,10 @@ Demo of the task:
 ![](contents/sort_demo.gif)
 
 # Defishing
-To defish (to get rid of radial distortion) a fisheye image one can execute the section of 'Defishing'. A folder containing all fisheye images can be defished by executing 'main.py' in defishing folder. Dataset format is in the 'Euclidean Distance Based Car Tracker' section. A video will be saved containing all defished images.
+To defish (to get rid of radial distortion) a fisheye image one can execute the section of 'Defishing'. A folder containing all fisheye images can be defished by executing [main.py](Defishing/main.py) in defishing folder. Dataset format is in the 'Euclidean Distance Based Car Tracker' section. A video will be saved containing all defished images.
 
 # Euclidean Distance Based Car Tracker
-Run 'object_trackerV1.py' to execute Euclidean Distance based car tracker. Here euclidean distance is used for distance comparison between points.
+Run [object_trackerV1.py](object_trackerV1.py) to execute Euclidean Distance based car tracker. Here euclidean distance is used for distance comparison between points.
 
 
 # SORT Car Tracker with contrail
